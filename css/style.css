@@ -1,0 +1,106 @@
+.wrapper {
+  padding: 0 10px;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria-Light"), url("../fonts/Geometria-Light.woff") format("woff"), url("../fonts/Geometria-Light.eot") format("eot"), url("../fonts/Geometria-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria"), url("../fonts/Geometria.woff") format("woff"), url("../fonts/Geometria.eot") format("eot"), url("../fonts/Geometria.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria-Medium"), url("../fonts/Geometria-Medium.woff") format("woff"), url("../fonts/Geometria-Medium.eot") format("eot"), url("../fonts/Geometria-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria-Bold"), url("../fonts/Geometria-Bold.woff") format("woff"), url("../fonts/Geometria-Bold.eot") format("eot"), url("../fonts/Geometria-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria-ExtraBold"), url("../fonts/Geometria-ExtraBold.woff") format("woff"), url("../fonts/Geometria-ExtraBold.eot") format("eot"), url("../fonts/Geometria-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria-Heavy"), url("../fonts/Geometria-Heavy.woff") format("woff"), url("../fonts/Geometria-Heavy.eot") format("eot"), url("../fonts/Geometria-Heavy.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+body {
+  font-family: "Geometria", sans-serif;
+}
+
+.header {
+  padding: 35px 10px 70px 10px;
+  background: url("../images/background-header.png") 35% 0/cover no-repeat;
+}
+.header__title {
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.header__text {
+  font-size: 22px;
+}
+.header__btn {
+  font-weight: 500;
+  padding: 17px 0;
+  font-size: 20px;
+  background-color: #2A94E2;
+}
+
+.logo__img {
+  margin-right: 30px;
+}
+.logo__text {
+  font-weight: 400;
+}
+
+.statistics {
+  margin-bottom: 60px;
+}
+.statistics__num {
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 1.25;
+  margin-right: 20px;
+}
+.statistics__col:not(:last-child) {
+  margin-right: 26px;
+}
+
+.test {
+  margin-bottom: 40px;
+}
+.test__icon {
+  width: 68px;
+  height: 73px;
+  margin-right: 20px;
+}
+.test__text span {
+  font-weight: 700;
+}
+
+.call__num {
+  font-size: 30px;
+}
+.call__btn {
+  font-weight: 500;
+  padding: 15px 0 19px 0;
+  border-color: #2A94E2;
+}
+.call__btn:hover {
+  background-color: #2A94E2;
+}/*# sourceMappingURL=style.css.map */
