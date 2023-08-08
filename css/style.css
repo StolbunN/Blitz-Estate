@@ -42,6 +42,16 @@ body {
   font-family: "Geometria", sans-serif;
 }
 
+.title-2 {
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.title-3 {
+  font-weight: 800;
+  font-size: 22px;
+}
+
 .header {
   padding: 35px 10px 70px 10px;
   background: url("../images/background-header.png") 35% 0/cover no-repeat;
@@ -56,8 +66,8 @@ body {
 }
 .header__btn {
   font-weight: 500;
-  padding: 17px 0;
   font-size: 20px;
+  padding: 17px 0;
   background-color: #2A94E2;
 }
 
@@ -102,5 +112,70 @@ body {
   border-color: #2A94E2;
 }
 .call__btn:hover {
+  background-color: #2A94E2;
+}
+
+.quiz {
+  padding: 60px 10px;
+}
+.quiz__title {
+  margin-bottom: 40px;
+}
+.quiz__text {
+  font-size: 22px;
+  margin-bottom: 42px;
+}
+.quiz__content {
+  border: 3px solid #F6F6F6;
+  padding: 40px;
+}
+.quiz__item {
+  list-style-type: none;
+  position: relative;
+}
+.quiz__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.quiz__item::before {
+  content: "";
+  display: inline-block;
+  height: 35px;
+  width: 39px;
+  background: url("../icons/check-mark.svg");
+  position: absolute;
+  left: -55px;
+  top: 8px;
+}
+
+.question__title {
+  margin-bottom: 30px;
+}
+.question__cards {
+  border-bottom: 3px solid #F6F6F6;
+  margin-bottom: 30px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.question__card {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.question__card:hover {
+  background-color: #2A94E2;
+}
+.question__card:hover .cards__text {
+  color: white;
+}
+
+.cards__text {
+  color: #808080;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.counter__btn {
+  color: #2A94E2;
+}
+.counter__btn:hover {
   background-color: #2A94E2;
 }/*# sourceMappingURL=style.css.map */

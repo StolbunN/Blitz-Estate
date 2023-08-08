@@ -61,3 +61,11 @@
 body{
     font-family: "Geometria", sans-serif;
 }
+
+.title-2{
+    @include fontWeightAndSize(800, 35px);
+}
+
+.title-3{
+    @include fontWeightAndSize(800, 22px);
+}

@@ -2,17 +2,15 @@
     padding: 35px 10px 70px 10px;
     background: url("../images/background-header.png") 35% 0 / cover no-repeat;
     &__title{
-        font-weight: 900;
-        font-size: 50px;
+        @include fontWeightAndSize(900, 50px);
         margin-bottom: 30px;
     }
     &__text{
         font-size: 22px;
     }
     &__btn{
-        font-weight: 500;
+        @include fontWeightAndSize(500, 20px);
         padding: 17px 0 ;
-        font-size: 20px;
         background-color: $color-blue;
     }
 }
@@ -29,8 +27,7 @@
 .statistics{
     margin-bottom: 60px;
     &__num{
-        font-weight: 300;
-        font-size: 80px;
+        @include fontWeightAndSize(300, 80px);
         line-height: 1.25;
         margin-right: 20px;
     }

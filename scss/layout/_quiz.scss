@@ -1,0 +1,68 @@
+.quiz{
+    padding: 60px 10px;
+    &__title{
+        margin-bottom: 40px;
+    }
+    &__text{
+        font-size: 22px;
+        margin-bottom: 42px;
+    }
+    &__content{
+        border: 3px solid #F6F6F6;
+        padding: 40px;
+    }
+    &__item{
+        list-style-type: none;
+        position: relative;
+        &:not(:last-child){
+            margin-bottom: 30px;
+        }
+        &::before{
+            content: "";
+            display: inline-block;
+            height: 35px;
+            width: 39px;
+            background: url("../icons/check-mark.svg");
+            position: absolute;
+            left: -55px;
+            top: 8px;
+        }
+    }
+}
+
+.question{
+    &__title{
+        margin-bottom: 30px;
+    }
+    &__cards{
+        border-bottom: 3px solid #F6F6F6;
+        margin-bottom: 30px;
+        column-gap: 30px;
+    }
+    &__card{
+        cursor: pointer;
+        transition: all .3s;
+        &:hover{
+            background-color: $color-blue;
+        }
+        &:hover .cards__text{
+            color: white;
+        }
+    }
+}
+
+.cards{
+    &__text{
+        color: #808080;
+        @include fontWeightAndSize(700, 16px);
+    }
+}
+
+.counter{
+    &__btn{
+        color: $color-blue;
+        &:hover{
+            background-color: $color-blue;
+        }
+    }
+}
