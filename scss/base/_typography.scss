@@ -68,4 +68,7 @@ body{
 
 .title-3{
     @include fontWeightAndSize(800, 22px);
+    &_white{
+        color: #FFF;
+    }
 }

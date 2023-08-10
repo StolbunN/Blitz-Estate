@@ -11,7 +11,6 @@
     &__btn{
         @include fontWeightAndSize(500, 20px);
         padding: 17px 0 ;
-        background-color: $color-blue;
     }
 }
 
