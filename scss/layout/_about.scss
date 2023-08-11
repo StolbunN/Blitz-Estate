@@ -1,0 +1,41 @@
+.about{
+    padding: 65px 0;
+    background: $color-gray-light;
+    &__title{
+        margin-bottom: 30px;
+    }
+    &__text:nth-child(3){
+        margin-bottom: 20px;
+    }
+    &__left{
+        padding: 10px;
+    }
+    &__right{
+        padding: 10px;
+    }
+    &__image{
+        margin-bottom: 8px;
+    }
+    &__btn{
+        padding: 16px 0;
+        max-width: 270px;
+    }
+
+}
+
+.image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-collection{
+    &__wrapper{
+        border: 2px solid transparent;
+        &:not(:last-child){
+            margin-right: 8px;
+        }
+        &:hover{
+            border: 2px solid $color-blue;
+        }
+    }
+}
