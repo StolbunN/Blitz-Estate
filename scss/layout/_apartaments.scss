@@ -1,0 +1,91 @@
+.apartaments{
+    &__title{
+        margin-bottom: 26px;
+    }
+    &__text{
+        font-size: 22px;
+    }
+    &__btn{
+        border-radius: 0;
+        border: 3px solid #F6F6F6;
+        padding: 13px 0;
+        max-width: 20%;
+        border-left: 0;
+        &_gray:hover{
+            background: $color-gray-light;
+        }
+    }
+    &__prices{
+        margin-bottom: 30px;
+    }
+    &__cards{
+        margin-bottom: 40px;
+    }
+    &__button{
+        background: $color-gray-light;
+        padding: 19px 0;
+        border-radius: 0;
+        &:hover{
+            background: $color-blue;
+            color: #FFF;
+        }
+    }
+}
+
+.apartaments__card{
+    border-radius: 0;
+    transition: box-shadow .3s;
+    &:hover{
+        box-shadow: 0px 0px 18px 0px rgba(233, 80, 79, 0.25);
+    }
+    &-img{
+        border-radius: 0;
+    }
+    &-content{
+        padding: 30px 30px 15px 30px;
+    }
+    &-title{
+        cursor: pointer;
+        margin-bottom: 10px;
+        transition: color .2s;
+        &:hover{
+            color: $color-blue;
+        }
+    }
+    &-lot{
+        margin-bottom: 20px;
+    }
+    &-btn{
+        @include fontWeightAndSize(500, 18px);
+        border-radius: 0;
+        background: #F6F6F6;
+        padding: 13px 0;
+        transition: all .2s;
+        &:hover{
+            background: $color-blue;
+            color: #FFF;
+        }
+    }
+}
+
+.card-info{
+    display: grid;
+    @include respond("lg"){
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(2, min-content);
+        align-items: baseline;
+    }
+    &__1{
+        @include fontWeightAndSize(300, 28px);
+        @include respond("sm"){
+            @include fontWeightAndSize(300, 33px)
+        }
+    }
+    &__square{
+        grid-row: 3 / 4;
+        @include respond("lg"){
+            grid-row: 1 / 2;
+            grid-column: 2 / -1;
+        }
+    }
+}
