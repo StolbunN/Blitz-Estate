@@ -430,6 +430,14 @@ body {
 .directions__title {
   margin-bottom: 50px;
 }
+.directions__cards {
+  margin-bottom: 60px;
+}
+.directions__link {
+  font-size: 22px;
+  color: #2A94E2;
+  line-height: 60px;
+}
 
 .direction {
   border: 1px solid #2A94E2;
@@ -453,6 +461,35 @@ body {
 .direction__number {
   font-size: 25px;
   margin-bottom: 10px;
+}
+
+.supervisor {
+  background: #F6F6F6;
+  padding-top: 60px;
+}
+.supervisor__description {
+  padding-bottom: 60px;
+}
+.supervisor__title {
+  margin-bottom: 30px;
+}
+.supervisor__name {
+  font-weight: 800;
+  font-size: 22px;
+}
+.supervisor__text {
+  margin-bottom: 30px;
+}
+.supervisor__btn {
+  padding: 16px 0;
+  max-width: 270px;
+}
+.supervisor__image-wrapper {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.supervisor__image {
+  width: 100%;
 }
 
 .button {

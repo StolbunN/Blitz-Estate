@@ -1,0 +1,26 @@
+.supervisor{
+    background: $color-gray-light;
+    padding-top: 60px;
+    &__description{
+        padding-bottom: 60px;
+    }
+    &__title{
+        margin-bottom: 30px;
+    }
+    &__name{
+        @include fontWeightAndSize(800, 22px);
+    }
+    &__text{
+        margin-bottom: 30px;
+    }
+    &__btn{
+        padding: 16px 0;
+        max-width: 270px;
+    }
+    &__image-wrapper{
+        object-fit: cover;
+    }
+    &__image{
+        width: 100%;
+    }
+}
