@@ -50,6 +50,9 @@
 .call{
     &__num{
         font-size: 30px;
+        &_white{
+            color: #FFF;
+        }
     }
     &__btn{
         font-weight: 500;
@@ -59,4 +62,8 @@
             background-color: $color-blue;
         }
     }
+}
+
+.wrapper{
+    overflow: hidden;
 }

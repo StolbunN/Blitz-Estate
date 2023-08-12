@@ -108,6 +108,9 @@ body {
 .call__num {
   font-size: 30px;
 }
+.call__num_white {
+  color: #FFF;
+}
 .call__btn {
   font-weight: 500;
   padding: 15px 0 19px 0;
@@ -115,6 +118,10 @@ body {
 }
 .call__btn:hover {
   background-color: #2A94E2;
+}
+
+.wrapper {
+  overflow: hidden;
 }
 
 .quiz {
@@ -490,6 +497,39 @@ body {
 }
 .supervisor__image {
   width: 100%;
+}
+
+.footer {
+  background: #535860;
+  padding: 40px 0;
+}
+.footer__btn {
+  border-color: #FFF;
+}
+.footer__btn:hover {
+  background: #F6F6F6;
+}
+.footer__email {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.schedule {
+  color: #FFF;
+  font-size: 13px;
+}
+.schedule__text {
+  margin-bottom: 10px;
+}
+.schedule__time {
+  margin-bottom: 20px;
+}
+.schedule__address {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.schedule__MSNR {
+  margin-right: 30px;
 }
 
 .button {
