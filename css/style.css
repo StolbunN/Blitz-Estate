@@ -424,6 +424,37 @@ body {
   border: 2px solid #2A94E2;
 }
 
+.directions {
+  padding: 60px 0;
+}
+.directions__title {
+  margin-bottom: 50px;
+}
+
+.direction {
+  border: 1px solid #2A94E2;
+  border-radius: 10px;
+  padding: 50px 50px 30px 50px;
+}
+.direction__decor {
+  left: 0;
+  top: 10px;
+}
+.direction__title {
+  margin-bottom: 40px;
+}
+.direction__supervisor {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.direction__supervisor-name {
+  margin-bottom: 20px;
+}
+.direction__number {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .button {
   background-color: #2A94E2;
   border-color: #2A94E2;

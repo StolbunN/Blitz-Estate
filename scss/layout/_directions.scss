@@ -1,0 +1,31 @@
+.directions{
+    padding: 60px 0;
+    &__title{
+        margin-bottom: 50px;
+    }
+}
+
+.direction{
+    border: 1px solid $color-blue;
+    border-radius: 10px;
+    padding: 50px 50px 30px 50px;
+    &__decor{
+        left: 0;
+        top: 10px;
+    }
+    &__title{
+        margin-bottom: 40px;
+    }
+    &__supervisor{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    &__supervisor-name{
+        margin-bottom: 20px;
+    }
+    &__number{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+}
