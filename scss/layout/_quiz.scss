@@ -61,6 +61,7 @@
 .counter{
     &__btn{
         color: $color-blue;
+        padding-bottom: 10px;
         &:hover{
             background-color: $color-blue;
         }

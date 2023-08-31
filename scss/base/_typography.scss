@@ -63,11 +63,17 @@ body{
 }
 
 .title-2{
-    @include fontWeightAndSize(800, 35px);
+    @include fontWeightAndSize(800, 30px);
+    @include respond("sm"){
+        font-size: 35px;
+    }
 }
 
 .title-3{
-    @include fontWeightAndSize(800, 22px);
+    @include fontWeightAndSize(800, 20px);
+    @include respond("sm"){
+        font-size: 22px;
+    }
     &_white{
         color: #FFF;
     }

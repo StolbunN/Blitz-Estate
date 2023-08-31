@@ -44,12 +44,22 @@ body {
 
 .title-2 {
   font-weight: 800;
-  font-size: 35px;
+  font-size: 30px;
+}
+@media only screen and (min-width: 576px) {
+  .title-2 {
+    font-size: 35px;
+  }
 }
 
 .title-3 {
   font-weight: 800;
-  font-size: 22px;
+  font-size: 20px;
+}
+@media only screen and (min-width: 576px) {
+  .title-3 {
+    font-size: 22px;
+  }
 }
 .title-3_white {
   color: #FFF;
@@ -60,9 +70,13 @@ body {
   background: url("../images/background-header.png") 35% 0/cover no-repeat;
 }
 .header__title {
-  font-weight: 900;
-  font-size: 50px;
   margin-bottom: 30px;
+}
+@media only screen and (min-width: 576px) {
+  .header__title {
+    font-weight: 900;
+    font-size: 50px;
+  }
 }
 .header__text {
   font-size: 22px;
@@ -78,19 +92,38 @@ body {
 }
 .logo__text {
   font-weight: 400;
+  font-size: 14px;
+}
+@media only screen and (min-width: 576px) {
+  .logo__text {
+    font-size: 16px;
+  }
 }
 
 .statistics {
   margin-bottom: 60px;
 }
 .statistics__num {
-  font-weight: 300;
-  font-size: 80px;
-  line-height: 1.25;
   margin-right: 20px;
+  font-size: 40px;
+}
+@media only screen and (min-width: 576px) {
+  .statistics__num {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 1.25;
+  }
 }
 .statistics__col:not(:last-child) {
   margin-right: 26px;
+}
+.statistics__text {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 576px) {
+  .statistics__text {
+    margin-bottom: 1rem;
+  }
 }
 
 .test {
@@ -106,7 +139,12 @@ body {
 }
 
 .call__num {
-  font-size: 30px;
+  font-size: 24px;
+}
+@media only screen and (min-width: 576px) {
+  .call__num {
+    font-size: 30px;
+  }
 }
 .call__num_white {
   color: #FFF;
@@ -184,6 +222,7 @@ body {
 
 .counter__btn {
   color: #2A94E2;
+  padding-bottom: 10px;
 }
 .counter__btn:hover {
   background-color: #2A94E2;
@@ -198,9 +237,14 @@ body {
 .services__cards {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: repeat(3, 300px);
+  grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+  grid-template-rows: repeat(3, 320px);
   grid-auto-rows: 300px;
+}
+@media only screen and (min-width: 576px) {
+  .services__cards {
+    grid-template-rows: repeat(3, 300px);
+  }
 }
 @media only screen and (min-width: 992px) {
   .services__cards {
@@ -302,8 +346,12 @@ body {
   border-radius: 0;
   border: 3px solid #f6f6f6;
   padding: 13px 0;
-  max-width: 20%;
   border-left: 0;
+}
+@media only screen and (min-width: 576px) {
+  .apartments__btn {
+    max-width: 20%;
+  }
 }
 .apartments__btn_gray:hover {
   background: #F6F6F6;
@@ -373,7 +421,7 @@ body {
 }
 .card-info__1 {
   font-weight: 300;
-  font-size: 28px;
+  font-size: 26px;
 }
 @media only screen and (min-width: 576px) {
   .card-info__1 {
@@ -441,9 +489,14 @@ body {
   margin-bottom: 60px;
 }
 .directions__link {
-  font-size: 22px;
   color: #2A94E2;
-  line-height: 60px;
+  font-size: 18px;
+  line-height: 40px;
+}
+@media only screen and (min-width: 576px) {
+  .directions__link {
+    font-size: 22px;
+  }
 }
 
 .direction {
@@ -466,8 +519,20 @@ body {
   margin-bottom: 20px;
 }
 .direction__number {
-  font-size: 25px;
   margin-bottom: 10px;
+}
+@media only screen and (min-width: 576px) {
+  .direction__number {
+    font-size: 25px;
+  }
+}
+.direction__email {
+  font-size: 14px;
+}
+@media only screen and (min-width: 576px) {
+  .direction__email {
+    font-size: 16px;
+  }
 }
 
 .supervisor {
@@ -507,7 +572,9 @@ body {
   border-color: #FFF;
 }
 .footer__btn:hover {
-  background: #F6F6F6;
+  background: #2A94E2;
+  border-color: #2A94E2;
+  color: white;
 }
 .footer__email {
   font-size: 22px;

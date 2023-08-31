@@ -6,9 +6,12 @@
     &__cards{
         display: grid;
         gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: repeat(3, 300px);
+        grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+        grid-template-rows: repeat(3, 320px);
         grid-auto-rows: 300px;
+        @include respond("sm"){
+            grid-template-rows: repeat(3, 300px);
+        }
         @include respond("lg"){
             grid-template-columns: repeat(3, 33%);
             grid-template-rows: repeat(3, 300px);

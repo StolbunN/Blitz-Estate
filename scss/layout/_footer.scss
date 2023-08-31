@@ -4,7 +4,9 @@
     &__btn{
         border-color: #FFF;
         &:hover{
-            background: $color-gray-light;
+            background: $color-blue;
+            border-color: $color-blue;
+            color: white;
         }
     }
     &__email{

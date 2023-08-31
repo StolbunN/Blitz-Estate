@@ -2,7 +2,9 @@
     padding: 35px 10px 70px 10px;
     background: url("../images/background-header.png") 35% 0 / cover no-repeat;
     &__title{
-        @include fontWeightAndSize(900, 50px);
+        @include respond("sm"){
+            @include fontWeightAndSize(900, 50px);
+        }
         margin-bottom: 30px;
     }
     &__text{
@@ -20,18 +22,31 @@
     }
     &__text{
         font-weight: 400;
+        font-size: 14px;
+        @include respond("sm"){
+            font-size: 16px;
+        }
     }
 }
 
 .statistics{
     margin-bottom: 60px;
     &__num{
-        @include fontWeightAndSize(300, 80px);
-        line-height: 1.25;
         margin-right: 20px;
+        font-size: 40px;
+        @include respond("sm"){
+            @include fontWeightAndSize(300, 80px);
+            line-height: 1.25;
+        }
     }
     &__col:not(:last-child){
         margin-right: 26px;
+    }
+    &__text{
+        margin-bottom: 0;
+        @include respond("sm"){
+            margin-bottom: 1rem;
+        }
     }
 }
 
@@ -49,7 +64,10 @@
 
 .call{
     &__num{
-        font-size: 30px;
+        font-size: 24px;
+        @include respond("sm"){
+            font-size: 30px;
+        }
         &_white{
             color: #FFF;
         }
