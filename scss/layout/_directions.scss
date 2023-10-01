@@ -1,51 +1,58 @@
-.directions{
-    padding: 60px 0;
-    &__title{
-        margin-bottom: 50px;
+.directions {
+  padding: 60px 0;
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__cards {
+    margin-bottom: 60px;
+  }
+  &__link {
+    color: $color-blue;
+    font-size: 18px;
+    line-height: 40px;
+    &:hover {
+      text-decoration: underline;
     }
-    &__cards{
-        margin-bottom: 60px;
+    @include respond("sm") {
+      font-size: 22px;
     }
-    &__link{
-        color: $color-blue;
-        font-size: 18px;
-        line-height: 40px;
-        @include respond("sm"){
-            font-size: 22px;
-        }
-    }
-
+  }
 }
 
-.direction{
-    border: 1px solid $color-blue;
-    border-radius: 10px;
-    padding: 50px 50px 30px 50px;
-    &__decor{
-        left: 0;
-        top: 10px;
+.direction {
+  border: 1px solid $color-blue;
+  border-radius: 10px;
+  padding: 50px 50px 30px 50px;
+  &__decor {
+    left: 0;
+    top: 10px;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__supervisor {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  &__supervisor-name {
+    margin-bottom: 20px;
+  }
+  &__number {
+    margin-bottom: 10px;
+    @include respond("sm") {
+      font-size: 25px;
     }
-    &__title{
-        margin-bottom: 40px;
+  }
+  &__email {
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    color: #000;
+    &:hover {
+      text-decoration: underline;
     }
-    &__supervisor{
-        font-size: 12px;
-        margin-bottom: 0;
+    @include respond("sm") {
+      font-size: 16px;
     }
-    &__supervisor-name{
-        margin-bottom: 20px;
-    }
-    &__number{
-        margin-bottom: 10px;
-        @include respond("sm"){
-            font-size: 25px;
-        }
-    }
-    &__email{
-        font-size: 14px;
-        @include respond("sm"){
-            font-size: 16px;
-        }
-    }
-
+  }
 }

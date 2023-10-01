@@ -1,34 +1,37 @@
-.footer{
-    background: #535860;
-    padding: 40px 0;
-    &__btn{
-        border-color: #FFF;
-        &:hover{
-            background: $color-blue;
-            border-color: $color-blue;
-            color: white;
-        }
+.footer {
+  background: #535860;
+  padding: 40px 0;
+  &__btn {
+    border-color: #fff;
+    &:hover {
+      background: $color-blue;
+      border-color: $color-blue;
+      color: white;
     }
-    &__email{
-        font-size: 22px;
-        margin-bottom: 15px;
+  }
+  &__email {
+    font-size: 22px;
+    margin-bottom: 15px;
+    &:hover {
+      text-decoration: underline;
     }
+  }
 }
 
-.schedule{
-    color:#FFF;
-    font-size: 13px;
-    &__text{
-        margin-bottom: 10px;
-    }
-    &__time{
-        margin-bottom: 20px;
-    }
-    &__address{
-        font-size: 16px;
-        margin-bottom: 20px;
-   }
-   &__MSNR{
+.schedule {
+  color: #fff;
+  font-size: 13px;
+  &__text {
+    margin-bottom: 10px;
+  }
+  &__time {
+    margin-bottom: 20px;
+  }
+  &__address {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  &__MSNR {
     margin-right: 30px;
-   }
+  }
 }

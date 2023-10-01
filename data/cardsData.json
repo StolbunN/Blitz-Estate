@@ -1,0 +1,102 @@
+[
+    {
+        "cardImg": "images/apartments 1-1.png",
+        "cardTitle": "Апартаменты в «башне ОКО»",
+        "cardLot": 4536,
+        "price": "25 600 000",
+        "priceMeter": "365 714",
+        "dataPrice": "10-30",
+        "square": 70,
+        "floor": 52
+    },
+    {
+        "cardImg": "images/apartments 2-1.png",
+        "cardTitle": "Апартаменты в «башне Империя»",
+        "cardLot": 4547,
+        "price": "27 900 000",
+        "priceMeter": "420 000",
+        "dataPrice": "10-30",
+        "square": 62,
+        "floor": 35
+    },
+    {
+        "cardImg": "images/apartments 3-1.png",
+        "cardTitle": "Апартаменты в «Neva Towers»",
+        "cardLot": 4548,
+        "price": "19 000 000",
+        "priceMeter": "475 000",
+        "dataPrice": "10-30",
+        "square": 40,
+        "floor": 16
+    },
+    {
+        "cardImg": "images/apartments 4-1.png",
+        "cardTitle": "Апартаменты в комплексе «Федерация»",
+        "cardLot": 4549,
+        "price": "59 500 000",
+        "priceMeter": "540 909",
+        "dataPrice": "50-100",
+        "square": 110,
+        "floor": 84
+    },
+    {
+        "cardImg": "images/apartments 5-1.png",
+        "cardTitle": "Апартаменты в «башне ОКО»",
+        "cardLot": 4550,
+        "price": "34 900 000",
+        "priceMeter": "396 590",
+        "dataPrice": "30-50",
+        "square": 88,
+        "floor": 29
+    },
+    {
+        "cardImg": "images/apartments 6-1.png",
+        "cardTitle": "Апартаменты в «Город столиц»",
+        "cardLot": 4551,
+        "price": "28 400 000",
+        "priceMeter": "498 245",
+        "dataPrice": "10-30",
+        "square": 57,
+        "floor": 48
+    },
+    {
+        "cardImg": "images/apartments 7-1.png",
+        "cardTitle": "Апартаменты в «башне ОКО»",
+        "cardLot": 4552,
+        "price": "38 200 000",
+        "priceMeter": "553 623",
+        "dataPrice": "30-50",
+        "square": 69,
+        "floor": 58
+    },
+    {
+        "cardImg": "images/apartments 8-1.png",
+        "cardTitle": "Апартаменты в «башне Империя»",
+        "cardLot": 4553,
+        "price": "41 000 000",
+        "priceMeter": "554 054",
+        "dataPrice": "30-50",
+        "square": 74,
+        "floor": 41
+    },
+    {
+        "cardImg": "images/apartments 9-1.png",
+        "cardTitle": "Апартаменты в «Город столиц»",
+        "cardLot": 4554,
+        "price": "53 200 000",
+        "priceMeter": "565 957",
+        "dataPrice": "50-100",
+        "square": 94,
+        "floor": 59
+    },
+    {
+        "cardImg": "images/apartments 10-1.png",
+        "cardTitle": "Апартаменты в «Neva Towers»",
+        "cardLot": 4555,
+        "price": "89 900 000",
+        "priceMeter": "642 142",
+        "dataPrice": "50-100",
+        "square": 140,
+        "floor": 61
+    }
+]

@@ -1,5 +1,13 @@
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   padding: 0 10px;
+}
+
+.card__hidden {
+  display: none !important;
 }
 
 @font-face {
@@ -54,7 +62,7 @@ body {
 
 .title-3 {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 18px;
 }
 @media only screen and (min-width: 576px) {
   .title-3 {
@@ -62,7 +70,7 @@ body {
   }
 }
 .title-3_white {
-  color: #FFF;
+  color: #fff;
 }
 
 .header {
@@ -173,7 +181,7 @@ body {
   margin-bottom: 42px;
 }
 .quiz__content {
-  border: 3px solid #F6F6F6;
+  border: 3px solid #f6f6f6;
   padding: 40px;
 }
 .quiz__item {
@@ -193,12 +201,43 @@ body {
   left: -55px;
   top: 8px;
 }
+.quiz__question {
+  position: relative;
+  height: 580px;
+  overflow: hidden;
+}
+@media (min-width: 430px) {
+  .quiz__question {
+    height: 740px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .quiz__question {
+    height: 770px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .quiz__question {
+    height: 340px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .quiz__question {
+    height: 400px;
+  }
+}
 
+.question {
+  padding: 0 5px;
+  position: absolute;
+  top: 0;
+  transition: transform 0.5s;
+}
 .question__title {
   margin-bottom: 30px;
 }
 .question__cards {
-  border-bottom: 3px solid #F6F6F6;
+  border-bottom: 3px solid #f6f6f6;
   margin-bottom: 30px;
   -moz-column-gap: 30px;
        column-gap: 30px;
@@ -207,11 +246,16 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
-.question__card:hover {
-  background-color: #2A94E2;
+.question:last-child {
+  transform: translate(0);
 }
-.question__card:hover .cards__text {
-  color: white;
+.question-final {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.question-final .title {
+  text-align: center;
 }
 
 .cards__text {
@@ -226,6 +270,14 @@ body {
 }
 .counter__btn:hover {
   background-color: #2A94E2;
+}
+
+.answer {
+  background-color: #2A94E2;
+}
+
+.answer .cards__text {
+  color: white;
 }
 
 .services {
@@ -356,7 +408,17 @@ body {
 .apartments__btn_gray:hover {
   background: #F6F6F6;
 }
-.apartments__prices {
+.apartments__btn-active {
+  background: #2A94E2;
+  border: 3px solid #2A94E2;
+  color: #fff;
+}
+.apartments__btn-active:hover {
+  background: #2A94E2;
+  border: 3px solid #2A94E2;
+  color: #fff;
+}
+.apartments__btns-prices {
   margin-bottom: 30px;
 }
 .apartments__cards {
@@ -419,12 +481,12 @@ body {
     align-items: baseline;
   }
 }
-.card-info__1 {
+.card-info__price {
   font-weight: 300;
   font-size: 26px;
 }
 @media only screen and (min-width: 576px) {
-  .card-info__1 {
+  .card-info__price {
     font-weight: 300;
     font-size: 33px;
   }
@@ -469,14 +531,8 @@ body {
      object-fit: cover;
 }
 
-.image-collection__wrapper {
-  border: 2px solid transparent;
-}
 .image-collection__wrapper:not(:last-child) {
   margin-right: 8px;
-}
-.image-collection__wrapper:hover {
-  border: 2px solid #2A94E2;
 }
 
 .directions {
@@ -492,6 +548,9 @@ body {
   color: #2A94E2;
   font-size: 18px;
   line-height: 40px;
+}
+.directions__link:hover {
+  text-decoration: underline;
 }
 @media only screen and (min-width: 576px) {
   .directions__link {
@@ -527,7 +586,13 @@ body {
   }
 }
 .direction__email {
+  cursor: pointer;
   font-size: 14px;
+  margin-bottom: 1rem;
+  color: #000;
+}
+.direction__email:hover {
+  text-decoration: underline;
 }
 @media only screen and (min-width: 576px) {
   .direction__email {
@@ -569,7 +634,7 @@ body {
   padding: 40px 0;
 }
 .footer__btn {
-  border-color: #FFF;
+  border-color: #fff;
 }
 .footer__btn:hover {
   background: #2A94E2;
@@ -580,9 +645,12 @@ body {
   font-size: 22px;
   margin-bottom: 15px;
 }
+.footer__email:hover {
+  text-decoration: underline;
+}
 
 .schedule {
-  color: #FFF;
+  color: #fff;
   font-size: 13px;
 }
 .schedule__text {
@@ -602,4 +670,16 @@ body {
 .button {
   background-color: #2A94E2;
   border-color: #2A94E2;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image-collection__wrapper.slider-small__item.slick-current .image {
+  border: 3px solid #2A94E2;
 }/*# sourceMappingURL=style.css.map */

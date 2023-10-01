@@ -17,8 +17,18 @@
     &_gray:hover {
       background: $color-gray-light;
     }
+    &-active{
+      background: $color-blue;
+      border: 3px solid $color-blue;
+      color: #fff;
+      &:hover {
+        background: $color-blue;
+        border: 3px solid $color-blue;
+        color: #fff;
+      }
+    }
   }
-  &__prices {
+  &__btns-prices {
     margin-bottom: 30px;
   }
   &__cards {
@@ -78,7 +88,7 @@
     grid-template-rows: repeat(2, min-content);
     align-items: baseline;
   }
-  &__1 {
+  &__price {
     @include fontWeightAndSize(300, 26px);
     @include respond("sm") {
       @include fontWeightAndSize(300, 33px);

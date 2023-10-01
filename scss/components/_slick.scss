@@ -1,0 +1,13 @@
+.slick {
+  &-list {
+    overflow: hidden;
+  }
+  &-track {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+.image-collection__wrapper.slider-small__item.slick-current .image {
+  border: 3px solid $color-blue;
+}
